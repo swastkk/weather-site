@@ -1,0 +1,28 @@
+{
+  "name": "weatherproject",
+  "version": "1.0.0",
+  "description": "A weather website which can provide the information about the Weather of any selected Place.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Swastik Sharma",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swastkk/weather-site.git"
+  },
+  "keywords": [
+    "API",
+    "NPM",
+    "node",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/swastkk/weather-site/issues"
+  },
+  "homepage": "https://github.com/swastkk/weather-site#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
