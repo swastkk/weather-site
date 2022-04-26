@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
-app.post("", function (req, res) {
+app.post("/", function (req, res) {
   const city = req.body.cityName;
   const appKey = "09fec64210a22432743e2f9bdf3fed5a";
   const url =
