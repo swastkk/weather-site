@@ -10,7 +10,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swastkk/weather-site.git"
+    "url": "https://github.com/swastkk/weather-site.git"
   },
   "keywords": [
     "API",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/swastkk/weather-site#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.17.3"
   }
 }
